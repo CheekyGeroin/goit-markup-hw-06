@@ -633,6 +633,7 @@ border-radius: 50%;
   color: var(--main-background-color);
 }
 .address {
+  flex-grow: 1;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -737,9 +738,12 @@ border-radius: 50%;
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.f-form{
+  display: flex;
+  margin-top: 20px;
+}
 .f-form-label{
   display: inline-block;
-  margin-top: 20px;
   margin-right: 12px;
 }
 .f-form-input{
@@ -752,10 +756,6 @@ border-radius: 50%;
   cursor: pointer;
 }
 .f-form-button{
-  position: absolute;
-  top: 44%;
-  left: 370px;
-  /* transform: translateY(-50%); */
   display: flex;
   justify-content: center;
   align-items: center;
